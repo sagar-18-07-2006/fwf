@@ -1,0 +1,73 @@
+.problem-card {
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+}
+
+.problem-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(201,168,76,0.35);
+}
+
+.problem-card--current {
+  background: var(--color-navy);
+  border-color: rgba(255,255,255,0.08);
+}
+
+.problem-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.problem-card__week {
+  color: var(--color-accent);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.problem-card__title {
+  color: var(--color-navy);
+  font-size: var(--text-xl);
+}
+
+.problem-card--current .problem-card__title {
+  color: var(--color-white);
+}
+
+.problem-card__topic {
+  color: var(--color-blue-muted);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.problem-card--current .problem-card__topic {
+  color: var(--color-cyan);
+}
+
+.problem-card__period {
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.problem-card--current .problem-card__period {
+  color: var(--color-gray-400);
+}
+
+.problem-card .btn {
+  justify-content: center;
+  margin-top: auto;
+}

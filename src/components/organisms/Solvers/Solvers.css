@@ -1,0 +1,12 @@
+.solvers__toolbar { display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-5); }
+.solvers__toolbar input, .solvers__toolbar select { min-height: 44px; border: 1px solid var(--color-gray-100); border-radius: var(--radius-full); padding: 0 var(--space-5); color: var(--color-text-primary); background: var(--color-white); box-shadow: var(--shadow-sm); outline: none; }
+.solvers__toolbar input { flex: 1 1 280px; }
+.solvers__toolbar select { flex: 0 1 230px; }
+.solvers__toolbar input:focus, .solvers__toolbar select:focus { border-color: var(--color-accent); box-shadow: var(--shadow-accent); }
+.solvers__table-wrap { overflow-x: auto; border-radius: var(--radius-lg); border: 1px solid var(--color-gray-100); box-shadow: var(--shadow-sm); background: var(--color-white); }
+.solvers__table { width: 100%; min-width: 820px; border-collapse: collapse; white-space: nowrap; }
+.solvers__thead-row { background: var(--color-navy); }
+.solvers__table thead { position: sticky; top: 0; z-index: 2; }
+.solvers__th { padding: var(--space-4) var(--space-5); text-align: left; font-family: var(--font-body); font-size: var(--text-xs); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-gray-400); border-bottom: 1px solid rgba(255,255,255,0.08); }
+.solvers__th:first-child { width: 70px; }
+@media (max-width: 640px) { .solvers__toolbar { flex-direction: column; } .solvers__toolbar input, .solvers__toolbar select { width: 100%; flex: auto; } }

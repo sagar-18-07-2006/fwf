@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225">
+  <rect width="400" height="225" fill="#1e3457"/>
+  <text x="200" y="108" font-family="Georgia,serif" font-size="14" fill="rgba(201,168,76,0.6)" text-anchor="middle" dominant-baseline="middle">Event Image Placeholder</text>
+  <path d="M160 90 L240 90 L240 135 L160 135 Z" fill="none" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+  <circle cx="200" cy="112" r="12" fill="none" stroke="rgba(201,168,76,0.3)" stroke-width="1.5"/>
+</svg>

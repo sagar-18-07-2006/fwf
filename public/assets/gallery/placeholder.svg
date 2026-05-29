@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#132340"/>
+  <text x="200" y="150" font-family="Georgia,serif" font-size="13" fill="rgba(201,168,76,0.5)" text-anchor="middle" dominant-baseline="middle">Gallery Image</text>
+  <rect x="150" y="120" width="100" height="60" fill="none" stroke="rgba(201,168,76,0.25)" stroke-width="1.5"/>
+</svg>

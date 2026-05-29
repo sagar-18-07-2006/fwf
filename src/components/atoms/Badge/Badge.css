@@ -1,0 +1,32 @@
+.badge {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+/* Difficulty */
+.badge--easy    { background: #e6f4ea; color: #2d6a4f; }
+.badge--medium  { background: #fff3e0; color: #b5590a; }
+.badge--hard    { background: #fdecea; color: #c0392b; }
+
+/* Status */
+.badge--active  { background: #e3f0ff; color: #1a5fa8; }
+.badge--closed  { background: var(--color-gray-100); color: var(--color-gray-600); }
+
+/* Awards */
+.badge--gold    { background: #fdf3d6; color: #8a6200; }
+.badge--silver  { background: #f0f2f5; color: #505a6e; }
+.badge--bronze  { background: #fdf0e6; color: #915022; }
+
+/* Generic tag */
+.badge--tag           { background: var(--color-navy-light); color: var(--color-white); }
+.badge--tag.badge--competition { background: rgba(201,168,76,0.15); color: var(--color-accent); }
+.badge--tag.badge--workshop    { background: rgba(77,184,200,0.15); color: var(--color-cyan); }
+.badge--tag.badge--symposium   { background: rgba(45,81,134,0.20); color: #7fa4d4; }
+.badge--tag.badge--talk        { background: rgba(45,81,134,0.12); color: #a0b8d4; }
