@@ -16,10 +16,10 @@ export default function HomePage() {
       <StatsStrip />
       <About />
       <MentorIntro />
-      <Events preview />
+      {/* <Events preview /> */}
       <TeamSection />
-      <ProblemsSection compact />
-      <LeaderboardSection compact />
+      {/* <ProblemsSection compact /> */}
+      {/* <LeaderboardSection compact /> */}
       <Gallery />
     </main>
   )
