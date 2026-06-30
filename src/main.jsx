@@ -9,8 +9,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
-
-
-
-
-// this is the main loading check file
+// create and check
